@@ -32,10 +32,22 @@ Clone or download this repository:
 ```bash
 git clone https://github.com/DKMap-VIS/DKMap.git
 ```
+Install the dependencies (in the Backend folder):
+```bash
+pip install -r requirements.txt
+```
 Install the dependencies (in the Frontend folder):
 ```bash
 npm install
 ```
+#### Path Modification (Required Before Running)
+Please update the file paths in the following code file according to your local environment.
+- File：`app.py\``
+     - line
+
+- File: `Main.vue\``
+
+
 Then run DKMap:
 ```bash
 npm run dev
