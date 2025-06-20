@@ -43,8 +43,8 @@ npm install
 #### Path Modification (Required Before Running)
 Please update the file paths in the following code file according to your local environment.
 - File：app.py
-     - line 35: .csv included position, alignment metric, image path and prompt of all data points.
-     - line 53: .npy included your data embedding.
+     - line 35: (a .csv file) included position, alignment metric, image path and prompt of all data points.
+     - line 53: (a .npy file) included your data embedding.
 
 - File: Main.vue
 
@@ -58,8 +58,12 @@ npm run dev
 Download the source code from the latest release version.
 
 #### 🚀Notice
-Most parameters are loaded automatically from ```config.yaml```
-
+- Most parameters are loaded automatically from ```config.yaml```.
+- If you want to use this package in your own project, you need to manually pass the following parameters to the main function:
+   - points_ds: dataset embedding (a .npy file)
+   - input_dimens: input feature dimension
+   - scores: alignment metric embedding (a .npy file)
+- Alternatively, you can follow the steps in our provided ```regression.ipynb```, which demonstrates how to train a projection and mapping model and generate a static projection map.
 
 
 
