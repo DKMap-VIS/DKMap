@@ -65,6 +65,7 @@ Download the source code from the latest release version.
    - input_dimens: input feature dimension
    - scores: alignment metric embedding (a .npy file)
 - Alternatively, you can follow the steps in our provided ```regression.ipynb```, which demonstrates how to train a projection and mapping model and generate a static projection map.
+- For further interactive exploration of the dataset, please refer to ```Contour_mapping_interactive.ipynb```.
 
 
 
