@@ -42,12 +42,13 @@ npm install
 ```
 #### Path Modification (Required Before Running)
 Please update the file paths in the following code file according to your local environment.
-- File：app.py
+- File：```app.py```
      - line 35: (a .csv file) included position, alignment metric, image path and prompt of all data points.
      - line 53: (a .npy file) included your data embedding.
 
-- File: Main.vue
-
+- File: ```Main.vue```
+     - line 345: (.csv files) included contour map values.
+     - line 53: (a .csv file) included position, alignment metric, image path and prompt of all data points.
 
 Then run DKMap:
 ```bash
