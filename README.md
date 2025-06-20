@@ -54,5 +54,16 @@ Then run DKMap:
 npm run dev
 ```
 
+### Python package
+Download the source code from the latest release version.
+
+#### 🚀Notice
+Most parameters are loaded automatically from ```config.yaml```
+
+
+
+
+
+
 
 
