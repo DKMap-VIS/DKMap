@@ -60,7 +60,7 @@ npm run dev
 ```
 
 ### Python package
-Download the source code from the latest release version.
+Download the source code from the Python package file.
 
 #### 🚀Notice
 - Most parameters are loaded automatically from ```config.yaml```.
