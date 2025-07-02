@@ -3,13 +3,12 @@ A novel DR visualization technique for interactive exploration of multimodal emb
 
 <table>
   <tr>
-    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/7f14e5cd-dec8-4372-9b86-d5672e533dac'></td>
-    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/9f14a7ff-9024-4d3d-adf3-9390807b21eb'></td>
+    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/1eeec725-dd91-464d-9e47-42374c24cd48'></td>
+    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/647ba1b2-6c75-4554-a0f1-0c48ce1a2c6f'></td>
   </tr>
   <tr></tr>
 
 </table>
-
 
 ## What is DKMap about?
 DKMap helps you make sense of multimodal embeddings — especially those from vision-language models — by showing how well text and images align. Traditional methods like t-SNE often fail to accurately reflect alignment metrics due to projection distortion and over-averaging. DKMap solves this with a dynamic kernel approach that makes the visualizations both more accurate and more interactive. You can zoom in, explore local details, and use it in your browser or Jupyter notebook.
