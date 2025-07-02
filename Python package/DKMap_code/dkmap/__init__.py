@@ -1,0 +1,1 @@
+from dkmap.trainer import train_parametric_dk_map_model
