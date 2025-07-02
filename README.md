@@ -1,7 +1,19 @@
 # DKMap <a href="https://github.com/DKMap-VIS/DKMap" style="color: #65513C; font-family: 'Maiden Orange', sans-serif; font-weight: bold;"></a>
+<<<<<<< HEAD
 A novel DR visualization technique for interactive exploration of multimodal embeddings through Dynamic Kernel enhanced projection
 
 ！！
+=======
+A novel DR visualization technique for interactive exploration of multimodal embeddings through Dynamic Kernel enhanced projection.
+
+<table>
+  <tr>
+    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/1eeec725-dd91-464d-9e47-42374c24cd48'></td>
+    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/647ba1b2-6c75-4554-a0f1-0c48ce1a2c6f'></td>
+  </tr>
+  <tr></tr>
+</table>
+>>>>>>> c57fdf87ebecc7ffae1eb9501dba12e82db953ab
 
 ## What is DKMap about?
 DKMap helps you make sense of multimodal embeddings — especially those from vision-language models — by showing how well text and images align. Traditional methods like t-SNE often fail to accurately reflect alignment metrics due to projection distortion and over-averaging. DKMap solves this with a dynamic kernel approach that makes the visualizations both more accurate and more interactive. You can zoom in, explore local details, and use it in your browser or Jupyter notebook.
@@ -18,7 +30,6 @@ refinement
 
 
 ## Quick Start
-You can get all the source code from the latest release version.
 
 ### Web-based system
 Clone or download this repository:
