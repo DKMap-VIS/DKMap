@@ -1,6 +1,14 @@
 # DKMap <a href="https://github.com/DKMap-VIS/DKMap" style="color: #65513C; font-family: 'Maiden Orange', sans-serif; font-weight: bold;"></a>
 A novel DR visualization technique for interactive exploration of multimodal embeddings through Dynamic Kernel enhanced projection
 
+<table>
+  <tr>
+    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/7f14e5cd-dec8-4372-9b86-d5672e533dac'></td>
+    <td colspan="3"><video width="100%" src='https://github.com/user-attachments/assets/9f14a7ff-9024-4d3d-adf3-9390807b21eb'></td>
+  </tr>
+  <tr></tr>
+
+</table>
 
 
 ## What is DKMap about?
