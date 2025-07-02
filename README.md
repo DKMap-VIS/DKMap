@@ -1,0 +1,68 @@
+# DKMap <a href="https://github.com/DKMap-VIS/DKMap" style="color: #65513C; font-family: 'Maiden Orange', sans-serif; font-weight: bold;"></a>
+A novel DR visualization technique for interactive exploration of multimodal embeddings through Dynamic Kernel enhanced projection
+
+
+
+## What is DKMap about?
+DKMap helps you make sense of multimodal embeddings — especially those from vision-language models — by showing how well text and images align. Traditional methods like t-SNE often fail to accurately reflect alignment metrics due to projection distortion and over-averaging. DKMap solves this with a dynamic kernel approach that makes the visualizations both more accurate and more interactive. You can zoom in, explore local details, and use it in your browser or Jupyter notebook.
+
+## Highlights
+✨ Scalable to <strong>billions</strong> of <strong>multimodal embedding</strong> point
+
+✨ Enables <strong>multi-resolution</strong> exploration via kernel
+refinement
+
+✨ Dynamically adjusts the granularity of the contour map for more flexible exploration.
+
+✨ Support multi-platform development -- <strong>computational notebooks</strong> (e.g., Colab, Jupyter, VS Code) and <strong>Web-based system</strong>
+
+
+## Quick Start
+You can get all the source code from the latest release version.
+
+### Web-based system
+Clone or download this repository:
+```bash
+git clone https://github.com/DKMap-VIS/DKMap.git
+```
+Install the dependencies (in the Backend folder):
+```bash
+pip install -r requirements.txt
+```
+Install the dependencies (in the Frontend folder):
+```bash
+npm install
+```
+#### Path Modification (Required Before Running)
+Please update the file paths in the following code file according to your local environment.
+- File：```app.py```
+     - line 35: (a .csv file) included position, alignment metric, image path and prompt of all data points.
+     - line 53: (a .npy file) included your data embedding.
+
+- File: ```Main.vue```
+     - line 345: (.csv files) included contour map values.
+     - line 53: (a .csv file) included position, alignment metric, image path and prompt of all data points.
+
+Then run DKMap:
+```bash
+npm run dev
+```
+
+### Python package
+Download the source code from the latest release version.
+
+#### 🚀Notice
+- Most parameters are loaded automatically from ```config.yaml```.
+- If you want to use this package in your own project, you need to manually pass the following parameters to the main function:
+   - points_ds: dataset embedding (a .npy file)
+   - input_dimens: input feature dimension
+   - scores: alignment metric embedding (a .npy file)
+- Alternatively, you can follow the steps in our provided ```regression.ipynb```, which demonstrates how to train a projection and mapping model and generate a static projection map.
+- For further interactive exploration of the dataset, please refer to ```Contour_mapping_interactive.ipynb```.
+
+
+
+
+
+
+
