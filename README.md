@@ -28,6 +28,13 @@ refinement
 
 ## Quick Start
 
+### 📂 Data
+
+We provide prepared embedding files list here: 
+- [DiffusionDB](https://drive.google.com/drive/folders/1w5fpg0dLDrsQ_VhGge2uzcS-cOcnGXhu?usp=sharing)
+- [Pick-a-pic](https://drive.google.com/drive/folders/1mz79GBRaBDKIUhrkWj1-l_LUUKacQBey?usp=sharing)
+
+
 ### Web-based system
 Clone or download this repository:
 ```bash
