@@ -28,11 +28,11 @@ refinement
 
 ## Quick Start
 
-### 📂 Data
+### Data
 
 We provide prepared embedding files list here: 
 - [DiffusionDB](https://drive.google.com/drive/folders/1w5fpg0dLDrsQ_VhGge2uzcS-cOcnGXhu?usp=sharing)
-- [Pick-a-pic](https://drive.google.com/drive/folders/1mz79GBRaBDKIUhrkWj1-l_LUUKacQBey?usp=sharing)
+- [Pick-a-Pic](https://drive.google.com/drive/folders/1mz79GBRaBDKIUhrkWj1-l_LUUKacQBey?usp=sharing)
 
 
 ### Web-based system
@@ -72,8 +72,8 @@ Download the source code from the Python package file.
    - points_ds: dataset embedding (a .npy file)
    - input_dimens: input feature dimension
    - scores: alignment metric embedding (a .npy file)
-- Alternatively, you can follow the steps in our provided ```regression.ipynb```, which demonstrates how to train a projection and mapping model and generate a static projection map.
-- For further interactive exploration of the dataset, please refer to ```Contour_mapping_interactive.ipynb```.
+- Alternatively, you can follow the steps in our provided ```Projection_and_mapping.ipynb```, which demonstrates how to train a projection and mapping model and generate a static projection map.
+- For further interactive exploration of the dataset, please refer to ```Interactive_contour_visualization.ipynb```.
 
 
 
